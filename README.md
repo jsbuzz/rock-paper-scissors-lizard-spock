@@ -1,6 +1,6 @@
 # Rock Paper Scissors Lizard Spock
 
-Play Rock Paper Scissors Lizard Spock with Sheldon!
+Play **Rock Paper Scissors Lizard Spock** with Sheldon!
 
 ## Development server
 Run `npm install` to set up the project.
