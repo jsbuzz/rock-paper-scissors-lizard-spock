@@ -8,7 +8,7 @@ h1 {
 }
 
 #stage {
-    width: 762px;
+    width: 812px;
     height: 430px;
     margin: 20px auto;
     background-color: navy;
@@ -25,7 +25,7 @@ h1 {
 .player {
     width: 352px;
     float: left;
-    margin-left: 20px;
+    margin-left: 36px;
 }
 
 .player .score {
