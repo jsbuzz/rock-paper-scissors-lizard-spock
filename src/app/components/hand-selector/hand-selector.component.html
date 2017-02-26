@@ -1,0 +1,9 @@
+<img (click)="startGame()"
+class="hand-map" src="assets/img/rock_paper_scissors_lizard_spock.jpg"
+usemap="#hand-map"/>
+
+<map name="hand-map">
+  <area *ngFor="let hand of hands"
+  (click)="onSelect(hand)"
+  shape="circle" coords="{{handCoordinates[hand.name]}}"  alt="{{hand.name}}" title="{{hand.name}}">
+</map>

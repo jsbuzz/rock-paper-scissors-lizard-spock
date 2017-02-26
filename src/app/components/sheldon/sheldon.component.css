@@ -1,0 +1,12 @@
+.sheldon {
+    width: 350px;
+    height: 350px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sheldon.plays { background-image: url('/assets/img/sheldon-plays.jpg'); }
+.sheldon.thinking { background-image: url('/assets/img/sheldon-thinking.jpg'); }
+.sheldon.wins { background-image: url('/assets/img/sheldon-wins.jpg'); }
+.sheldon.looses { background-image: url('/assets/img/sheldon-looses.jpg'); }

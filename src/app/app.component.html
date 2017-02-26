@@ -1,3 +1,21 @@
 <h1>
-  {{title}}
+    {{title}}
 </h1>
+
+<section id="stage">
+    <div id="user" class="player">
+        <div class="score">{{playerScore}}</div>
+        <div class="hands">
+            <hand-selector
+                [onSelect]="onSelect.bind(this)"
+                [startGame]="startGame.bind(this)">
+            </hand-selector>
+        </div>
+        <div class="hand-title">{{playerHand}}</div>
+    </div>
+    <div id="sheldon" class="player">
+        <div class="score">{{sheldonScore}}</div>
+        <sheldon [state]="sheldonState"></sheldon>
+        <div class="hand-title">{{sheldonHand}}</div>
+    </div>
+</section>
