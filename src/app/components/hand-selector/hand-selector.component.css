@@ -1,4 +1,6 @@
 .hand-map {
     width: 350px;
     height: 350px;
+    border: 1px solid white;
+    cursor: pointer;
 }

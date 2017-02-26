@@ -1,12 +1,25 @@
 .sheldon {
     width: 350px;
     height: 350px;
+    border: 1px solid white;
 
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.sheldon.plays { background-image: url('/assets/img/sheldon-plays.jpg'); }
-.sheldon.thinking { background-image: url('/assets/img/sheldon-thinking.jpg'); }
-.sheldon.wins { background-image: url('/assets/img/sheldon-wins.jpg'); }
-.sheldon.looses { background-image: url('/assets/img/sheldon-looses.jpg'); }
+.sheldon.plays {
+    background-image: url('/assets/img/sheldon-plays.jpg');
+    background-position-x: 35%;
+}
+.sheldon.thinking {
+    background-image: url('/assets/img/sheldon-thinking.jpg');
+    background-position-x: 50%;
+}
+.sheldon.wins {
+    background-image: url('/assets/img/sheldon-wins.jpg');
+    background-position-x: 50%;
+}
+.sheldon.looses {
+    background-image: url('/assets/img/sheldon-looses.jpg');
+    background-position-x: 22%;
+}

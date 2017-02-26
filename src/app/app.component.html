@@ -11,11 +11,13 @@
                 [startGame]="startGame.bind(this)">
             </hand-selector>
         </div>
-        <div class="hand-title">{{playerHand}}</div>
+        <div class="hand-title">{{playerHand || "Choose a hand!"}}</div>
     </div>
     <div id="sheldon" class="player">
         <div class="score">{{sheldonScore}}</div>
         <sheldon [state]="sheldonState"></sheldon>
-        <div class="hand-title">{{sheldonHand}}</div>
+        <div class="hand-title">{{sheldonHand || "Sheldon"}}</div>
     </div>
 </section>
+
+<p class="how-to">Click on the image on the left to start a round.</p>

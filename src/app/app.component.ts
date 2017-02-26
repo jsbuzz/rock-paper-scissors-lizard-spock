@@ -55,6 +55,7 @@ export class AppComponent {
             this.sheldonState = "looses";
         } else if(this.playerHand === this.sheldonHand) {
             this.title = "Huhh, that's a draw!";
+            this.sheldonState = "plays";
         } else {
             this.sheldonScore++;
             this.title = "Sheldon wins! " + this.sheldonHand.beatString(this.playerHand);
