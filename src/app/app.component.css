@@ -22,6 +22,13 @@ h1 {
     font-weight: 600;
 }
 
+.quote {
+    width: 812px;
+    margin: 0px auto;
+    color: navy;
+    font-size: 12px;
+}
+
 .player {
     width: 352px;
     float: left;
